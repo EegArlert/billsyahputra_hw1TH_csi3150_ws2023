@@ -1,26 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="./assets/no-signal-regular-24.png">
 </head>
+
 <body>
     <header>
         <!-- Start Header  -->
+        <h1 class="heading-name">Bill Syahputra</h1>
 
+        <nav class="heading-nav">
+            <a href="index.html">Home</a>
+            <a href="./pages/my_resume.html">Resume</a>
+            <a href="./pages/my_fun_facts.html">Fun Fact</a>
+        </nav>
         <!-- End Header -->
     </header>
 
     <main>
-         <!-- Start Main  -->
+        <!-- Start Main  -->
+        <div class="container-profile">
+            <img src="./assets/billProfile.jpg" alt="my-picture" height="300rem">
+            <h4 class="my-quote">
+                <i>"The journey of a thousand miles begin with a single step."</i>
+                <br>
+                <i> -Lao Tzu</i>
+            </h4>
+        </div>
 
+        <div class="container-introduction">
+            <!-- <br> is used to limit <p> width -->
+            <p class="first-intro-p">Hi~! My name is Bill Syahputra and I'm currently a senior here at OU studying Computer Science.
+                <br>
+                I choose to focus on Web Development as my professional track because this is the field that I'm
+                <br>                                       
+                passionate about. I currently work at OU as a Student Network Engineer with the UTS team. In the
+                <br>
+                future, I want to become a full-stack web developer so I can build my own personal creative projects! :D
+                <br>
+                To know more about me professionally, please open my Resume Page <a href="./pages/my_resume.html">here!</a>
+            </p>
+            <p class="second-intro-p"> 
+                Before pursuing CS, I was a Certified Pharmacy Technician (CPhT) because I was interested in going for
+                <br>
+                medical school to become a Pediatrician. However, I shifted away from medical due to several 
+                <br>
+                reasons: Challenges of maintaining a healthy work-life balance, complicated legal requirements,
+                <br>
+                and the emotionally taxing nature of patient care. To know more interesting stuff about me, please
+                <br>
+                open my Fun Fact Page <a href="./pages/my_fun_facts.html">here!</a>
+            </p>
+        </div>
+
+        <div class="container-progress-bar">
+            <label for="graduation">CS Credit Progress: </label>
+            <progress value="114" max="126">114 / 126</progress>
+        </div>
         <!-- End Main -->
     </main>
-    <footer>
-         <!-- Start Footer  -->
 
+    <footer>
+        <!-- Start Footer  -->
+            <div class="personal-info">
+                <p>Email: <a href="mailto:bsyaphputra@oakland.edu">bsyahputra@oakland.edu</a></p>
+                <p>Github: <a href="https://www.github.com/eegarlert/">EegArlert</a></p> 
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/bill-syahputra-61bb3226a/">Bill syahputra</a></p>
+            </div>
+            <p>copyright &#169 2024 Bill Syahputra</p>
         <!-- End Footer -->
     </footer>
 </body>
+
 </html>
